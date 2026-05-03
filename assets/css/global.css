@@ -29,9 +29,15 @@
 .container {
   padding-block: 1rem;
   padding-inline: 1rem;
+  color: var(--text-color-secondary);
+  background-color: var(--surface-color);
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+li {
+  list-style: none;
 }

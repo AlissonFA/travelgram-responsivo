@@ -6,10 +6,6 @@
   display: grid;
 }
 
-.padding-inline-1 {
-  padding-inline: 1rem;
-}
-
 .profile-nav {
   width: 2.5rem;
   height: 2.5rem;
