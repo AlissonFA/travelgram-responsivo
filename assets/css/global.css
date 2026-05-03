@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  /* Product */
+  --brand-color: #EF5F4C;
+
+  /* Shape */
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: rgb(255, 255, 255, 0.56);
+
+  /* Text */
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  /* Font */
+  --font-family: "Poppins", sans-serif;
+  --h1: 700 32px/125% var(--font-family);
+  --paragraph-md: 400 14px/170% var(--font-family);
+  --paragraph-sm: 400 12px/170% var(--font-family);
+}
