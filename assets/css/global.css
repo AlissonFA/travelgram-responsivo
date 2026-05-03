@@ -25,3 +25,13 @@
   --paragraph-md: 400 14px/170% var(--font-family);
   --paragraph-sm: 400 12px/170% var(--font-family);
 }
+
+.container {
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
