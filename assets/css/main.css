@@ -16,8 +16,10 @@ main {
 }
 
 @media (width >= 80em) {
-  main {
+  & main {
     & .container {
+      padding-inline: 1rem;
+
       & ul {
         grid-template-columns: repeat(4, 17.875rem);
         gap: 1.5rem;

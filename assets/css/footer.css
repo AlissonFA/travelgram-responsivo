@@ -1,0 +1,39 @@
+footer {
+  background-color: var(--background-color);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & p {
+      font: 400 14px/150% var(--font-family);
+    }
+
+    & nav {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+
+      & a {
+        font: 400 14px/150% var(--font-family);
+      }
+    }
+  }
+}
+
+@media (width >= 80em) {
+  & footer {
+    padding-inline: 1rem;
+    
+    & .container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      & nav {
+        margin-top: 0;
+      }
+    }
+  }
+}
