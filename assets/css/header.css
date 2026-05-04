@@ -2,7 +2,6 @@ header {
   & #nav {
     align-items: center;
     justify-content: space-between;
-    /* padding-bottom: 1rem; */
 
     & .items {
       display: flex;

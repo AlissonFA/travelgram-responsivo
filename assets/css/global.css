@@ -26,11 +26,14 @@
   --paragraph-sm: 400 12px/170% var(--font-family);
 }
 
+body {
+  background-color: var(--surface-color);
+  color: var(--text-color-secondary);
+}
+
 .container {
   padding-block: 1rem;
   padding-inline: 1rem;
-  color: var(--text-color-secondary);
-  background-color: var(--surface-color);
 }
 
 a {
