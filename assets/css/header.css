@@ -35,7 +35,7 @@ header {
 
       & .info {
         gap: 1rem;
-        
+
         & li {
           display: flex;
           gap: 0.5rem;
@@ -43,7 +43,7 @@ header {
           & span {
             font: var(--paragraph-md);
           }
-        } 
+        }
       }
     }
   }
